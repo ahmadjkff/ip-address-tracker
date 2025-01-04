@@ -9,7 +9,7 @@ function App() {
     <div className="bg-background bg-cover bg-center h-80 font-rubik">
       <MyProvider>
         <Header />
-        <GeoMap />]
+        <GeoMap />
       </MyProvider>
     </div>
   );
