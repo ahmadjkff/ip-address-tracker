@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import arrow from "../images/icon-arrow.svg";
+import arrow from "../public/images/icon-arrow.svg";
 import LocationData from "./LocationData";
 
 function Header() {
