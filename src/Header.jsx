@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import arrow from "../public/images/icon-arrow.svg";
+import arrow from "./images/icon-arrow.svg";
 import LocationData from "./LocationData";
 
 function Header() {
@@ -7,7 +7,7 @@ function Header() {
   const [searchIp, setSearchIp] = useState("");
 
   const handleSearch = () => {
-    setSearchIp(ip); // Update the IP used for LocationData
+    setSearchIp(ip);
   };
 
   return (

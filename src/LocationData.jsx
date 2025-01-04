@@ -41,7 +41,7 @@ function LocationData({ ip }) {
       <div className="bg-white translate-y-20 w-full py-8 text-black rounded-xl z-40 px-10">
         <Placeholder />
       </div>
-    ); // Show a loading message while fetching data
+    );
   }
 
   return (
